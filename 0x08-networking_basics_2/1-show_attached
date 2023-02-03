@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# Displaying attached IP addresses
-ifconfig | grep "inet " | tr ":" " " | awk '{print $3}'
